@@ -1,0 +1,52 @@
+ Problem: Design a Stack That Supports min() Without Math.min
+ Description:
+Design a stack that supports standard operations (push, pop, top, isEmpty) and can also retrieve the minimum element in constant time without using Math.min.
+
+Implement a class PileMin with the following API:
+
+push(element): Push an integer element onto the stack.
+
+pop(): Remove the top element from the stack. Return null if the stack is empty.
+
+top(): Return the top element of the stack. If the stack is empty, return undefined.
+
+isEmpty(): Return true if the stack is empty, otherwise false.
+
+min(): Retrieve the minimum element currently in the stack in O(1) time.
+
+⚠️ You are not allowed to use built-in functions like Math.min(). The minimum value must be tracked manually using data structures.
+
+ Class Signature:
+
+class PileMin {
+  constructor();
+  push(element: number): void;
+  pop(): number | null;
+  top(): number | undefined;
+  isEmpty(): boolean;
+  min(): number | undefined;
+}
+ Example:
+
+const stack = new PileMin();
+
+stack.push(5);
+stack.push(3);
+stack.push(7);
+console.log(stack.min()); // 3
+
+stack.pop(); // removes 7
+console.log(stack.min()); // 3
+
+stack.pop(); // removes 3
+console.log(stack.min()); // 5
+
+stack.pop(); // removes 5
+console.log(stack.isEmpty()); // true
+ Constraints:
+All elements are integers.
+
+All methods must run in O(1) time.
+
+You cannot use Math.min() or any similar built-in method to find the minimum.
+

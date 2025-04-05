@@ -1,0 +1,28 @@
+ Problem: Valid Bracket Sequence
+ Description:
+Given a string containing just the characters '(', ')', '{', '}', '[', and ']', as well as any other non-bracket characters, determine if the bracket symbols are valid.
+
+A string is considered valid if:
+
+Every opening bracket has a corresponding closing bracket of the same type.
+
+Brackets are closed in the correct order.
+
+Non-bracket characters are ignored.
+
+
+function checkBalance(string: string): boolean
+ Examples:
+
+checkBalance("()")             // true  
+checkBalance("([])")           // true  
+checkBalance("{[()]}")         // true  
+checkBalance("{[(])}")         // false  
+checkBalance("{[}")            // false  
+checkBalance("abc{[()]}xyz")   // true  
+checkBalance(")(")             // false  
+checkBalance("")               // true  // An empty string is considered balanced
+ Constraints:
+0 <= string.length <= 10^4
+
+The input may include any characters, but only (), {}, and [] are considered for balancing.
