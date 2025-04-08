@@ -21,6 +21,7 @@ describe('PileMin', () => {
     })
 
     describe('top()', () => {
+
         test('should return the top element of the pile', () => {
             pile.push(10);
             pile.push(4);
@@ -33,6 +34,7 @@ describe('PileMin', () => {
     })
 
     describe('pop()', () => {
+
         test('should remove the top element of the pile',() => {
             pile.push(4);
             pile.push(10);
@@ -50,6 +52,7 @@ describe('PileMin', () => {
     })
 
     describe('push()', () => {
+
         test('should add elements to the pile', () => {
           pile.push(5);
           pile.push(10);
@@ -64,6 +67,7 @@ describe('PileMin', () => {
       });
 
     describe('min()', () => {
+        
         test('should return the minimum element in the pile', () => {
           pile.push(5);
           pile.push(10);

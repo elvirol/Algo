@@ -1,0 +1,12 @@
+Implement a Queue Using Two Stacks
+Create a class that implements a Queue using two Stacks. The queue should support the following operations:
+
+enqueue(value) - Adds an element to the queue.
+
+dequeue() - Removes and returns the front element of the queue.
+
+peek() - Returns the front element of the queue without removing it.
+
+isEmpty() - Checks if the queue is empty.
+
+Use two stacks (inStack and outStack) to implement these operations.
