@@ -1,0 +1,35 @@
+problem: Evaluate Postfix Expressions
+Objective: Write a function that evaluates a postfix expression (Reverse Polish notation). Postfix expressions do not require parentheses to denote precedence of operations, as the order of operations is inherently defined by the position of the operands and operators.
+
+Problem: Implement a function that takes a string representing a postfix expression, where each element is separated by spaces. The function should evaluate the expression and return the result.
+
+Requirements:
+
+Operators: The expression may contain the following operators: +, -, *, /. Each operator works with the two previous numbers in the stack.
+
+Operands: Operands are integers, and the expression is evaluated from left to right. For example, 2 3 + means 2 + 3.
+
+Function Signature:
+
+js
+Copier
+Modifier
+function postfixee(expression: string): number;
+Example:
+
+js
+Copier
+Modifier
+postfixee("5 1 2 + 4 * + 3 -"); 
+// Expected result: 14
+Explanation of the above example:
+
+5 1 2 + 4 * + 3 -
+
+First, 1 2 + is evaluated, giving 3.
+
+Then, 3 4 * gives 12.
+
+Now, 5 12 + gives 17.
+
+Finally, 17 3 - results in 14.
