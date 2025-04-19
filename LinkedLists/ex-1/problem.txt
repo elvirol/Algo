@@ -1,0 +1,40 @@
+ Exercise: Implement a Singly Linked List
+Objective:
+Create a class LinkedList that represents a singly linked list. Each node in the list should contain a value and a pointer to the next node.
+
+Requirements:
+
+Node Class:
+
+A class Node with:
+
+a value
+
+a next pointer initialized to null.
+
+LinkedList Class:
+
+A head property initialized to null.
+
+Methods to implement:
+
+append(value) — adds a new node with the given value at the end of the list.
+
+print() — prints the list in the format: value1 -> value2 -> ... -> null.
+
+remove(value) — removes the first node with the given value from the list.
+
+Example:
+js
+Copier
+Modifier
+const list = new LinkedList();
+
+list.append(10);
+list.append(20);
+list.append(30);
+
+list.print();       // Output: 10 -> 20 -> 30 -> null
+
+list.remove(20);
+list.print();       // Output: 10 -> 30 -> null
