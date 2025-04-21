@@ -1,0 +1,8 @@
+What you need to do :
+Create an array fruits with: "apple", "kiwi", "banana", "orange", "cherry"
+
+Use a classic for loop to log each fruit with the message:
+➜ Fruit: apple
+
+Then use a for...of loop to log each fruit with the message:
+➜ 🍓 apple

@@ -1,0 +1,6 @@
+What you need to do :
+Create an array fruits with: "apple", "kiwi", "banana", "orange", "cherry"
+
+Use .filter() to create longFruits: only fruits with more than 5 letters
+
+Use .filter() to create fruitsWithA: only fruits that contain the letter "a"

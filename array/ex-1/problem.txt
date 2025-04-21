@@ -1,0 +1,10 @@
+ What you need to do:
+Create an array called fruits containing: "apple", "banana", "cherry", "orange", "mango"
+
+Log in the console:
+
+The first fruit
+
+The third fruit
+
+The last fruit → without writing a number directly (i.e., without using an index like 4)

@@ -1,0 +1,12 @@
+fruitsStartingWithLetter(array, letter)
+→ Return all fruits that start with the given letter (case-insensitive)
+
+countFruitsWithLength(array, minLength)
+→ Return how many fruits have a name longer than or equal to minLength
+
+🧪 Exemple :
+
+let fruits = ["Apple", "Banana", "Pear", "Mango", "Pineapple", "apricot"];
+
+fruitsStartingWithLetter(fruits, "a");   // ["Apple", "apricot"]
+countFruitsWithLength(fruits, 6);        // 2 (Pineapple, Banana)

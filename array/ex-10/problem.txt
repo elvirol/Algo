@@ -1,0 +1,8 @@
+What you need to do :
+Create an array numbers with: [3, 7, 12, 5, 9, 21]
+
+Create a function doubleNumbers that returns all numbers multiplied by 2 using .map()
+
+Create a function filterEvenNumbers that returns only even numbers using .filter()
+
+Create a function sumNumbers that returns the total sum of all numbers using .reduce()

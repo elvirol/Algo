@@ -1,0 +1,8 @@
+What you need to do :
+Create an array fruits with: "apple", "kiwi", "banana", "orange", "cherry"
+
+Use .forEach() to log each fruit with this message:
+➜ Fruit: apple
+
+Then, use .forEach() to log each fruit with its index, like:
+➜ 0: apple

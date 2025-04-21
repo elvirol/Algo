@@ -1,0 +1,6 @@
+What you need to do :
+Create an array fruits with: "apple", "kiwi", "banana", "orange", "cherry"
+
+Write a function findFruitWithR using .find() to return the first fruit that includes the letter "r"
+
+Write a function hasFruitWithP using .some() to return true if any fruit includes the letter "p", otherwise false

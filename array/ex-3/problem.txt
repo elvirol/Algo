@@ -1,0 +1,8 @@
+What you need to do:
+Create an array fruits containing: "strawberry", "banana", "kiwi", "apple"
+
+Replace "banana" with "mango"
+
+Replace the last fruit with "pineapple" without using a hardcoded index
+
+Log the final array with console.log(fruits)

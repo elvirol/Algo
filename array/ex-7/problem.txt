@@ -1,0 +1,7 @@
+What you need to do :
+Create an array fruits with: "apple", "kiwi", "banana", "orange", "cherry"
+
+Use .map() to create a new array upperFruits with all names in uppercase
+
+Use .map() again to create an array emojiFruits with each fruit starting with 🍎
+Example: 🍎 apple

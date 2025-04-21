@@ -1,0 +1,12 @@
+What you need to do:
+Create an array fruits containing: "apple", "kiwi", "banana", "orange", "cherry"
+
+Check if "banana" is in the array
+
+Check if "pineapple" is in the array
+
+Print the index of "orange"
+
+Print the index of "pineapple"
+
+Log all results using console.log

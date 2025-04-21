@@ -24,6 +24,14 @@ class LinkedList {
         current.next = newNode;
     }
 
+    prepend(value) {
+        const newNode = new Node(value);
+        if (this.head) {
+            newNode.next = this.head;
+        }
+        this.head = newNode;
+    }
+
     print() {
         let current = this.head;
         let output = '';

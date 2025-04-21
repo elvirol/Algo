@@ -34,6 +34,28 @@ describe('LinkedList', () => {
     });
   });
 
+  describe('prepend()', () => {
+    test('should add a value at the beginning when the list is empty', () => {
+      list.prepend(10);
+      expect(list.head.value).toBe(10);
+      expect(list.head.next).toBeNull();
+    });
+  
+    test('should add a value at the beginning when the list has elements', () => {
+      list.append(20);
+      list.prepend(10);
+      expect(list.head.value).toBe(10);
+      expect(list.head.next.value).toBe(20);
+    });
+  
+    test('should handle multiple prepends correctly', () => {
+      list.prepend(30);
+      list.prepend(20);
+      list.prepend(10);
+      expect(list.print()).toBe('10 -> 20 -> 30 -> null');
+    });
+  });
+
   describe('remove()', () => {
     test('should remove the head node if it matches the value', () => {
       list.append(10);

@@ -1,0 +1,12 @@
+ What you need to do:
+Create an array fruits containing: "apple", "banana", "cherry"
+
+Add "orange" to the end of the array
+
+Add "kiwi" to the beginning of the array
+
+Remove the last element
+
+Remove the first element
+
+Log the final array with console.log(fruits)
