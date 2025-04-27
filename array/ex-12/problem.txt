@@ -1,0 +1,10 @@
+You have an array of fruit objects.
+Each fruit has a name and a quantity.
+
+Create two functions:
+
+getFruitNames(array)
+ → Return an array with the names of all fruits.
+
+getFruitsWithQuantityAbove(array, quantity)
+ → Return all fruits that have a quantity greater than the given number.

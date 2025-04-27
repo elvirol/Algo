@@ -1,0 +1,8 @@
+Write two functions:
+
+updateFruitQuantity(array, fruitName, newQuantity)
+ 👉 This function should update the quantity of the fruit that matches the name.
+
+removeFruit(array, fruitName)
+ 👉 This function should remove the fruit from the array if the name matches.
+

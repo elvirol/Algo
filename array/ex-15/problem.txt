@@ -1,0 +1,15 @@
+You have an array of fruit objects representing inventory.
+Create the following functions:
+
+getLowStockFruits(array, limit)
+→ Return all fruits with quantity less than or equal to limit.
+
+restockFruit(array, fruitName, amount)
+→ Increase the quantity of the given fruit by amount.
+
+getInventorySummary(array)
+→ Return an object with:
+
+totalFruits: sum of all quantities
+
+fruitNames: array of all fruit names

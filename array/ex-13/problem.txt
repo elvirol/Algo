@@ -1,0 +1,8 @@
+You have an array of fruit objects with name and quantity.
+Create the following functions:
+
+getTotalQuantity(array)
+ → Return the total quantity of all fruits combined.
+
+getMostAbundantFruit(array)
+ → Return the fruit object with the highest quantity.
