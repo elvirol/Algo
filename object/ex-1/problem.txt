@@ -1,0 +1,17 @@
+Using an Object as a Dictionary
+Title: Create a Simple Dictionary
+Create an object called dictionary where each key represents a word, and the corresponding value is the definition of that word.
+
+Include the following words as keys:
+
+"apple"
+
+"banana"
+
+"kiwi"
+
+"mango"
+
+Assign a short definition to each word (as a string).
+
+Display the definition of the word "banana".

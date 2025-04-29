@@ -1,0 +1,14 @@
+Instructions:
+
+Create an object student with the following properties:
+
+firstName: a string of your choice
+
+lastName: a string of your choice
+
+grades: an array of numbers (e.g., [15, 12, 18])
+
+Create a function addGrade(object, newGrade) that adds a new grade to the grades array.
+
+Create a function getAverageGrade(object) that returns the average of the student's grades.
+

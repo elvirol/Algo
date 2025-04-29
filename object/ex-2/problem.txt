@@ -1,0 +1,15 @@
+Create an object representing a book with the following properties:
+
+title (the title of the book),
+
+author (the author of the book),
+
+year (the publication year).
+
+Then:
+
+Add a new property genre to your object.
+
+Modify the author property to change the author.
+
+Delete the year property from your object.

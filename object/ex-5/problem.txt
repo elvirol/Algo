@@ -1,0 +1,19 @@
+Create an object library that stores information about books. Each book should have the following properties:
+
+title: The title of the book.
+
+author: The author of the book.
+
+year: The year the book was published.
+
+genre: The genre of the book (for example: "fiction", "mystery", etc.).
+
+isAvailable: A boolean indicating if the book is available or checked out.
+
+Add a method called getBookSummary to the object. This method should return a string summarizing the book’s title, author, and year.
+
+Add a method called checkOut that changes the isAvailable property to false (indicating that the book is checked out).
+
+Add a method called returnBook that changes the isAvailable property to true (indicating the book has been returned).
+
+Add a method called getAvailableBooks which takes an array of books (i.e. an array of library objects) and returns an array of all books that are available (i.e. isAvailable: true).

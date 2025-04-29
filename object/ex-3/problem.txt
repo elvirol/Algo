@@ -1,0 +1,9 @@
+In this exercise, you will work with an object. You need to check if a property exists in the object and display its content if present. If the property doesn't exist, you should display an error message.
+
+Instructions:
+
+Create an object representing a vehicle with the following properties: make, model, year.
+
+Add a color property to the object.
+
+Create a function checkProperty that takes an object and a property name as arguments. It should return the value of the property if it exists or an error message if it doesn't.
