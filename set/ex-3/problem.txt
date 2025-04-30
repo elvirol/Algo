@@ -1,0 +1,5 @@
+Write a function called getCommonElements that takes two arrays as arguments and returns a new array containing only the elements that exist in both arrays. Use a Set to help with the comparison.
+
+Example:
+
+getCommonElements([1, 2, 3, 4], [3, 4, 5, 6]) 

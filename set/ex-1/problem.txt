@@ -1,0 +1,7 @@
+Create an empty Set.
+
+Add the following elements to the Set: "apple", "banana", "orange", "apple" (notice the duplicate).
+
+Print the Set to the console.
+
+✅ The goal is to understand how Set handles uniqueness of elements.

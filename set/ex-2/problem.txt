@@ -1,0 +1,1 @@
+Create a function called hasDuplicates that takes an array of numbers as input and returns true if there are duplicate values, otherwise false.
